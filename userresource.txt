@@ -1,0 +1,10 @@
+@RestController
+@RequestMapping("/user")
+public class UserResource {
+	@RequestMapping("/{userId}")
+    public User getUserInfo(@PathVariable("userId") int UserId) {
+       return null ;
+
+}
+
+}
